@@ -2,18 +2,25 @@
   "name": "twitchbot",
   "version": "1.0.0",
   "description": "",
-  "main": "hello.js",
+  "main": "main.js",
   "dependencies": {
+    "express": "^4.17.1",
     "mysql": "^2.18.1",
-    "tmi.js": "^1.5.0"
-  },
-  "devDependencies": {
+    "tmi.js": "^1.5.0",
     "twitch-bot": "^1.3.5"
   },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goja124/twitchbot.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goja124/twitchbot/issues"
+  },
+  "homepage": "https://github.com/goja124/twitchbot#readme"
 }
